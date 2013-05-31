@@ -22,16 +22,16 @@ public:
 			i++;
 		else if (sum > target)
 			j--;
-		else 
-		{ 
+		else
+		{
 			int p1 = nums[i].second, p2 = nums[j].second;
-			if (p1 > p2) swap(p1, p2);	
-			idxs.push_back(p1); 
-			idxs.push_back(p2); 
+			if (p1 > p2) swap(p1, p2);
+			idxs.push_back(p1);
+			idxs.push_back(p2);
 			return idxs;
 		}
 	}
-	
+
 	return idxs;
     }
 };
