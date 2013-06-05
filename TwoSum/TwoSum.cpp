@@ -1,3 +1,14 @@
+/*
+Given an array of integers, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+You may assume that each input would have exactly one solution.
+
+Input: numbers={2, 7, 11, 15}, target=9
+Output: index1=1, index2=2
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -42,16 +53,3 @@ void print(vector<int>& V)
 		cout<<V[i]<<" ";
 	cout<<endl;
 }
-
-
-int main(void)
-{
-	int A[] = {5,75,25};
-	int n   = sizeof(A)/sizeof(int);
-	vector<int> V(A, A+n);
-	Solution s;
-	vector<int> S = s.twoSum(V, 100);
-	print(S);
-	return 0;
-}
-
