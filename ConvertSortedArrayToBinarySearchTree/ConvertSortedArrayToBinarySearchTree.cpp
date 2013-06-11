@@ -93,6 +93,7 @@ public:
 	}
 };
 
+/*
 int main(void) {
 	int A[] = {5, 9, 21, 24};
 	int n   = sizeof(A)/sizeof(int);
@@ -101,3 +102,4 @@ int main(void) {
 	Solution s;
 	TreeNode* root = s.sortedArrayToBST1(V);
 }
+*/
