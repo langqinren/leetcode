@@ -5,6 +5,10 @@
 
 class Solution {
 public:
+	double findMedianSortedArraysHelper(int A[], int ia, int ja, int B[], int ib, int jb) {
+	
+	}
+
     double findMedianSortedArrays(int A[], int m, int B[], int n) {
         
     }
