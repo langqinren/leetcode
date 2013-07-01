@@ -19,7 +19,7 @@ public:
 	// initalization. 
 	// (1) take the first values from the input 
 	// (2) use INT_MAX, INT_MIN that can never be the output.
-    int threeSumClosest(vector<int> &num, int target) {
+	int threeSumClosest(vector<int> &num, int target) {
 		sort(num.begin(), num.end());
 	
 		int close = num[0] + num[1] + num[2];
